@@ -78,7 +78,7 @@ spec:
         value: "$(params.build-image)"
       runAfter:
         - tests
-#        - lint
+ #       - lint
 
     - name: deploy
       workspaces:
